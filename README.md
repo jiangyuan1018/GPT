@@ -30,12 +30,10 @@ cd GPT
 ```
 
 2. 安装依赖：
-
 ```bash
-pip install -r requirements.txt
+conda create -n gpt python=3.11
+conda activate gpt
 ```
-
-或直接安装必要的库：
 
 ```bash
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
